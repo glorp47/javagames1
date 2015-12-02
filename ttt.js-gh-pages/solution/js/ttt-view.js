@@ -47,6 +47,7 @@ View.prototype.makeMove = function ($square) {
 };
 
 View.prototype.setupBoard = function () {
+  $('body').css('background-color', 'red');
   var $ul = $("<ul>");
   $ul.addClass("group");
 
