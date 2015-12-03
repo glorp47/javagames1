@@ -1,4 +1,4 @@
-var View = require('./ttt-view');
+var View = require('./ttt-view.js');
 var Game = require('../../ttt-core-solution/game');
 
 $(function () {
